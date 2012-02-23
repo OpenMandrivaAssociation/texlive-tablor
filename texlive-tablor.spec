@@ -1,12 +1,12 @@
-# revision 20473
+# revision 25433
 # category Package
 # catalog-ctan /macros/latex/contrib/tablor
-# catalog-date 2010-11-17 15:52:51 +0100
+# catalog-date 2012-02-20 01:12:37 +0100
 # catalog-license lppl
-# catalog-version 4.07-e
+# catalog-version 4.07-f
 Name:		texlive-tablor
-Version:	4.07e
-Release:	2
+Version:	4.07f
+Release:	1
 Summary:	Create tables of signs and of variations
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/tablor
