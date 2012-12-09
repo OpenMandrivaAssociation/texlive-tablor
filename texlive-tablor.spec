@@ -115,3 +115,20 @@ tablor package requires that shell escape be enabled.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Thu Feb 23 2012 Paulo Andrade <pcpa@mandriva.com.br> 4.07f-1
++ Revision: 779666
+- Update to latest release.
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 4.07e-2
++ Revision: 756432
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 4.07e-1
++ Revision: 719636
+- texlive-tablor
+- texlive-tablor
+- texlive-tablor
+
