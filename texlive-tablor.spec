@@ -1,11 +1,11 @@
-# revision 25433
+# revision 31855
 # category Package
 # catalog-ctan /macros/latex/contrib/tablor
-# catalog-date 2012-02-20 01:12:37 +0100
+# catalog-date 2013-10-07 18:39:11 +0200
 # catalog-license lppl
-# catalog-version 4.07-f
+# catalog-version 4.07-g
 Name:		texlive-tablor
-Version:	4.07f
+Version:	4.07g
 Release:	1
 Summary:	Create tables of signs and of variations
 Group:		Publishing
@@ -102,6 +102,8 @@ tablor package requires that shell escape be enabled.
 %doc %{_texmfdistdir}/doc/latex/tablor/Figures/tablor_Tab.mp
 %doc %{_texmfdistdir}/doc/latex/tablor/README
 %doc %{_texmfdistdir}/doc/latex/tablor/README-fr.txt
+%doc %{_texmfdistdir}/doc/latex/tablor/auto/tablor-xetex.el
+%doc %{_texmfdistdir}/doc/latex/tablor/auto/tablor.el
 %doc %{_texmfdistdir}/doc/latex/tablor/tablor.html
 %doc %{_texmfdistdir}/doc/latex/tablor/tablor.pdf
 %doc %{_texmfdistdir}/doc/latex/tablor/tablor.tex
@@ -115,20 +117,3 @@ tablor package requires that shell escape be enabled.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Thu Feb 23 2012 Paulo Andrade <pcpa@mandriva.com.br> 4.07f-1
-+ Revision: 779666
-- Update to latest release.
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 4.07e-2
-+ Revision: 756432
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 4.07e-1
-+ Revision: 719636
-- texlive-tablor
-- texlive-tablor
-- texlive-tablor
-
