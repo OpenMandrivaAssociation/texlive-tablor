@@ -6,7 +6,7 @@
 # catalog-version 4.07-g
 Name:		texlive-tablor
 Version:	4.07g
-Release:	4
+Release:	5
 Summary:	Create tables of signs and of variations
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/tablor
