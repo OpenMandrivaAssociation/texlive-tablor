@@ -1,18 +1,12 @@
-# revision 31855
-# category Package
-# catalog-ctan /macros/latex/contrib/tablor
-# catalog-date 2013-10-07 18:39:11 +0200
-# catalog-license lppl
-# catalog-version 4.07-g
 Name:		texlive-tablor
-Version:	4.07g
-Release:	10
+Version:	31855
+Release:	1
 Summary:	Create tables of signs and of variations
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/tablor
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tablor.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tablor.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tablor.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tablor.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -28,12 +22,12 @@ configuration of the language to be used in the diagrams. The
 tablor package requires that shell escape be enabled.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -110,7 +104,7 @@ tablor package requires that shell escape be enabled.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
