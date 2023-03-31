@@ -1,6 +1,6 @@
 Name:		texlive-tablor
 Version:	31855
-Release:	1
+Release:	2
 Summary:	Create tables of signs and of variations
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/tablor
