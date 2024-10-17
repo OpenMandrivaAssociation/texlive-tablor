@@ -3,7 +3,7 @@ Version:	31855
 Release:	2
 Summary:	Create tables of signs and of variations
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/tablor
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/tablor
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tablor.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tablor.doc.r%{version}.tar.xz
